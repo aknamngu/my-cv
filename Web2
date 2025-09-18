@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trang Cá Nhân - Kiều Diễm</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header h2 {
+      margin-top: 0.5rem;
+      font-weight: 400;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h3 {
+      border-left: 5px solid #2575fc;
+      padding-left: 0.5rem;
+      color: #2575fc;
+    }
+
+    aside {
+      background: #eef4ff;
+      padding: 1rem;
+      border-left: 4px solid #6a11cb;
+      font-style: italic;
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: #ddd;
+      margin-top: 2rem;
+    }
+
+    footer small {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chào mừng đến với trang của Kiều Diễm</h1>
+    <h2>Giới thiệu về tôi</h2>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        Xin chào! Mình tên là <strong>Kiều Diễm</strong>, hiện đang học và
+        tìm hiểu thêm về lập trình web và cơ sở dữ liệu. Mình yêu thích học
+        hỏi điều mới mỗi ngày và thích làm dự án nhỏ để thực hành kiến thức.
+        Mình luôn cố gắng hoàn thiện kỹ năng mềm và kỹ năng kỹ thuật để phát triển.
+      </p>
+      <small>Chú thích: Đây là phần giới thiệu ngắn, bạn có thể mở rộng thêm.</small>
+    </section>
+
+    <section>
+      <h3>Sở thích của tôi</h3>
+      <p>
+        Mình thích <strong>đọc sách</strong> và <em>viết lách</em> vào buổi tối;
+        cuối tuần mình thường đi dã ngoại và khám phá ẩm thực địa phương.
+        Ngoài ra, mình cũng rất thích <strong><em>lập trình nhỏ</em></strong> để thử
+        nghiệm các ý tưởng mới.
+      </p>
+    </section>
+
+    <section>
+      <h3>Mục tiêu học tập</h3>
+      <p>
+        Mục tiêu của mình trong năm tới là <mark>nâng cao kỹ năng lập trình web</mark>,
+        hoàn thành ít nhất <mark>2 dự án thực tế</mark> và cải thiện khả năng làm việc nhóm.
+        Mình cũng muốn đạt được chứng chỉ liên quan đến cơ sở dữ liệu và quản lý dự án.
+      </p>
+    </section>
+
+    <aside>
+      <blockquote>
+        "Học không biết chán, làm không biết mỏi" — phương châm giúp mình tiến bộ mỗi ngày.
+      </blockquote>
+    </aside>
+  </main>
+
+  <footer>
+    <p><small>Liên hệ: kieu.diem@example.com (ví dụ)</small></p>
+  </footer>
+</body>
+</html>
