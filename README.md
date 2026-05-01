@@ -42,7 +42,6 @@ Font Awesome: Hệ thống icon biểu tượng liên hệ.
 GitHub Pages: Duy trì và triển khai trang web trực tuyến.
 
 📬 Liên hệ
-Số điện thoại: 0788 612 462  
 
 Email: dangkieubmdr@gmail.com
 
