@@ -1,3 +1,4 @@
+/* TỔNG THỂ */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f0f2f5;
@@ -15,6 +16,7 @@ body {
   border-radius: 8px;
 }
 
+/* HEADER */
 header {
   text-align: center;
   border-bottom: 2px solid #2575fc;
@@ -22,15 +24,39 @@ header {
   margin-bottom: 25px;
 }
 
-h1 { margin: 0; color: #2575fc; font-size: 30px; }
-.subtitle { font-weight: bold; color: #666; margin-top: 5px; }
+h1 { 
+  margin: 0; 
+  color: #2575fc; 
+  font-size: 30px; 
+}
 
+.subtitle { 
+  font-weight: bold; 
+  color: #666; 
+  margin-top: 5px; 
+}
+
+/* PHẦN THÔNG TIN LIÊN HỆ - ĐÃ CHỈNH THẲNG HÀNG */
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr); /* Chia đều 2 cột */
+  gap: 15px 30px; /* Khoảng cách dòng và cột */
+  margin: 20px auto;
+  max-width: 550px; /* Gom gọn lại để các icon thẳng hàng hơn */
+  text-align: left;
+}
+
+.contact-grid span {
+  display: flex;
+  align-items: center;
   gap: 10px;
-  margin-top: 15px;
   font-size: 14px;
+}
+
+.contact-grid i {
+  color: #2575fc;
+  width: 20px; /* Cố định chiều rộng icon để chữ bắt đầu từ 1 vị trí */
+  text-align: center;
 }
 
 /* NÚT TẢI CV NỔI BẬT */
@@ -50,8 +76,10 @@ h1 { margin: 0; color: #2575fc; font-size: 30px; }
 .btn-download:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(37, 117, 252, 0.6);
+  filter: brightness(1.1);
 }
 
+/* CÁC MỤC CHÍNH */
 h2 {
   background: #eef4ff;
   padding: 8px 15px;
@@ -66,11 +94,20 @@ h2 {
   grid-template-columns: 1fr 1fr;
 }
 
-.project-item { margin-bottom: 15px; }
+.project-item { 
+  margin-bottom: 20px; 
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.project-item:last-child {
+  border-bottom: none;
+}
 
 ul { padding-left: 20px; }
-li { margin-bottom: 6px; }
+li { margin-bottom: 6px; line-height: 1.5; }
 
+/* FOOTER */
 footer {
   margin-top: 30px;
   text-align: center;
